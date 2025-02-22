@@ -1,7 +1,7 @@
 {
   "name": "element-china-area-data",
-  "version": "5.0.2",
-  "description": "Element UI 级联 中国省市区数据",
+  "version": "1.0",
+  "description": "Element UI 级联 中国省市区数据 包含港澳台",
   "main": "./dist/app.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot",
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Plortinus/element-china-area-data.git"
+    "url": "git+https://github.com/Cherry-toto/element-china-area-data.git"
   },
   "keywords": [
     "element",
@@ -22,14 +22,13 @@
     "省市区",
     "级联"
   ],
-  "author": "plortinus@gmail.com",
+  "author": "2581047041@qq.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Plortinus/element-china-area-data/issues"
+    "url": "https://github.com/Cherry-toto/element-china-area-data/issues"
   },
-  "homepage": "https://github.com/Plortinus/element-china-area-data#readme",
+  "homepage": "https://github.com/Cherry-toto/element-china-area-data#readme",
   "dependencies": {
-    "china-area-data": "^5.0.1",
     "lodash-es": "^4.17.15"
   },
   "devDependencies": {
