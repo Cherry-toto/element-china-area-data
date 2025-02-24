@@ -1,20 +1,21 @@
 # Element UI 中国省市区级联数据
 
-[![npm](https://img.shields.io/npm/v/element-china-area-data.svg)](https://www.npmjs.com/package/element-china-area-data) [![npm](https://img.shields.io/npm/dt/element-china-area-data.svg)](https://www.npmjs.com/package/element-china-area-data)
-
+## 说明
+`data.json`: 省市区数据				
+`china-area-data.js`: 构建数据的文件   
 
 ## 安装
 
-  `npm install element-china-area-data -S`
+直接将代码（`china-area-data.js`,`data.json`）放到项目文件中，如：`src/utils/china-area-data.js,src/utils/data.json`   
 
-## 在线示例
-
-[地址在此，网页打开会比较慢](https://plortinus.github.io/element-china-area-data/index.html)
+## 注意
+安装过程可能存在一些依赖需要安装     
+` "lodash-es": "^4.17.15"`  
 
 ## 使用
 
 ```js
-import { provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode } from 'element-china-area-data'
+import { provinceAndCityData, regionData, provinceAndCityDataPlus, regionDataPlus, CodeToText, TextToCode } from @/utils/china-area-data.js'
 ```
 
   1. `provinceAndCityData`是省市二级联动数据（不带“全部”选项）
@@ -162,10 +163,5 @@ value是区域码`"110000"`
 
 ## 数据来源
 
-[china-area-data v5.0.0](https://github.com/airyland/china-area-data)
+`data.json`
 
-## 开发过程
-
-`npm run dev` 是开发
-
-`npm run build` + `npm run build-commonjs` + `npm run docs` 是准备发布

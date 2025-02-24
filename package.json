@@ -1,12 +1,12 @@
 {
-  "name": "element-china-area-data",
-  "version": "1.0",
+  "name": "rmc-element-china-area-data",
+  "version": "1.0.2",
   "description": "Element UI 级联 中国省市区数据 包含港澳台",
   "main": "./dist/app.js",
   "scripts": {
     "dev": "webpack-dev-server --config webpack.dev.config.js --inline --hot",
     "docs": "webpack --config webpack.doc.config.js --progress --hide-modules",
-    "build": "webpack --config webpack.build.config.js --progress --hide-modules",
+    "build": "webpack --config webpack.build.config.js --progress",
     "build-commonjs": "webpack --config webpack.build.commonjs.config.js --progress --hide-modules",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
